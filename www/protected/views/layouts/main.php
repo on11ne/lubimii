@@ -1,58 +1,175 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+    <title>Любимый :: главная</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <script language="javascript" type="text/javascript" src="/assets/js/jquery.1.7.2.js"></script>
+    <script language="javascript" type="text/javascript" src="/assets/js/jquery.event.frame.js"></script>
+    <script language="javascript" type="text/javascript" src="/assets/js/jquery.parallax.js"></script>
+    <script language="javascript" type="text/javascript" src="/assets/js/index_page.js"></script>
 
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
-
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+    <script language="javascript" type="text/javascript" src="/assets/js/slides.jquery.js"></script>
 </head>
-
 <body>
-
-<div class="container" id="page">
-
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
-
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
-
-	<?php echo $content; ?>
-
-	<div class="clear"></div>
-
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
-
-</div><!-- page -->
-
+<div id="wrapper">
+    <div id="header-wrapper">
+        <div id="header">
+            <div class="left">
+                <a href="/" class="logo"></a>
+            </div>
+            <div class="right">
+                <div class="main-menu">
+                    <a class="item_1 active" href="#"></a>
+                    <a class="item_2" href="#"></a>
+                    <a class="item_3" href="#"></a>
+                    <a class="item_4" href="#"></a>
+                    <a class="item_5" href="#"></a>
+                </div>
+                <div class="search-box">
+                    <a class="feedback-link" href="#"></a>
+                </div>
+            </div>
+            <div class="c"></div>
+        </div>
+    </div>
+    <div id="content-wrapper">
+        <div id="target" class="parallax-port">
+            <img class="parallax-layer" src="/assets/images/fare_layer.png" alt="" />
+            <img class="parallax-layer" src="/assets/images/mid_layer.png" alt="" />
+            <img class="parallax-layer" src="/assets/images/close_layer.png" alt="" />
+        </div>
+        <div id="content">
+            <div id="slider-index">
+                <div class="slides_container">
+                    <div class="slide">
+                        <div class="left" style="background-image:url(/assets/images/temp_contents/slider-image-1.png)">
+                            <div class="cur_date">
+                                <div class="digit">27</div>
+                                <div class="month">апреля</div>
+                            </div>
+                            <div class="slogan"></div>
+                        </div>
+                        <div class="right">
+                            <div class="date">29 преля - 25 мая</div>
+                            <div class="descr">
+                                <p>Для участия в акции необходимо в день проведения промо-акции прийти в один из магазинов, где проводится мероприятие, и купить продукцию «Любимый» («Любимый сад»).</p>
+                                <p>В подарок за покупку 1,9 и/или 2,85 литров сока или нектара «Любимый» любого вкуса и формата вы получите замечательный стеклянный стакан и/или салатник </p>
+                            </div>
+                            <div class="buttons">
+                                <a href="#" class="readmore_button"></a>
+                            </div>
+                            <div class="title"><span>Старт кулинарного творчества 1</span></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="left" style="background-image:url(/assets/images/temp_contents/slider-image-1.png)">
+                            <div class="cur_date">
+                                <div class="digit">28</div>
+                                <div class="month">апреля</div>
+                            </div>
+                            <div class="slogan"></div>
+                        </div>
+                        <div class="right">
+                            <div class="date">29 преля - 25 мая</div>
+                            <div class="descr">
+                                <p>Для участия в акции необходимо в день проведения промо-акции прийти в один из магазинов, где проводится мероприятие, и купить продукцию «Любимый» («Любимый сад»).</p>
+                                <p>В подарок за покупку 1,9 и/или 2,85 литров сока или нектара «Любимый» любого вкуса и формата вы получите замечательный стеклянный стакан и/или салатник </p>
+                            </div>
+                            <div class="buttons">
+                                <a href="#" class="readmore_button"></a>
+                            </div>
+                            <div class="title"><span>Старт кулинарного творчества 2</span></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="left" style="background-image:url(/assets/images/temp_contents/slider-image-1.png)">
+                            <div class="cur_date">
+                                <div class="digit">29</div>
+                                <div class="month">апреля</div>
+                            </div>
+                            <div class="slogan"></div>
+                        </div>
+                        <div class="right">
+                            <div class="date">29 преля - 25 мая</div>
+                            <div class="descr">
+                                <p>Для участия в акции необходимо в день проведения промо-акции прийти в один из магазинов, где проводится мероприятие, и купить продукцию «Любимый» («Любимый сад»).</p>
+                                <p>В подарок за покупку 1,9 и/или 2,85 литров сока или нектара «Любимый» любого вкуса и формата вы получите замечательный стеклянный стакан и/или салатник </p>
+                            </div>
+                            <div class="buttons">
+                                <a href="#" class="readmore_button"></a>
+                            </div>
+                            <div class="title"><span>Старт кулинарного творчества 3</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-wrapper">
+        <div id="footer">
+            <div class="top">
+                <div class="gmo"></div>
+                <div id="news-module-box">
+                    <div class="title">
+                        <a href="#"></a>
+                    </div>
+                    <div class="c"></div>
+                    <div class="body">
+                        <ul>
+                            <li class="news-block with-border">
+                                <div class="date">25 апреля</div>
+                                <a class="thumbnail" href="#">
+                                    <img src="/assets/images/temp_contents/news-1-logo.png" />
+                                </a>
+                                <div class="mainbody">
+                                    <a class="item-title" href="#">Настоящая «Кладовая солнца»</a>
+                                    <div class="item-descr">По уже сложившейся традиции перед Новым, 2012 годом «Любимый» ...</div>
+                                </div>
+                                <div class="c"></div>
+                            </li>
+                            <li class="news-block">
+                                <div class="date">25 апреля</div>
+                                <a class="thumbnail" href="#">
+                                    <img src="/assets/images/temp_contents/news-2-logo.png" />
+                                </a>
+                                <div class="mainbody">
+                                    <a class="item-title" href="#">«Любимый» начинает новую рекламную кампанию</a>
+                                    <div class="item-descr">По уже сложившейся традиции перед Новым, 2012 годом «Любимый» ...</div>
+                                </div>
+                                <div class="c"></div>
+                            </li>
+                        </ul>
+                        <div class="c"></div>
+                    </div>
+                </div>
+                <div class="c"></div>
+            </div>
+            <div class="bottom">
+                <a href="#" id="developer-logo"></a>
+                <div class="bottom_menu">
+                    <a href="#" class="active">О бренде</a>
+                    <a href="#">О Любимом</a>
+                    <a href="#">Новости</a>
+                </div>
+                <div class="bottom_menu">
+                    <a href="#">Акции</a>
+                    <a href="#">Обратная связь</a>
+                    <a href="#">Поиск</a>
+                </div>
+                <div class="footer-icons">
+                    <table>
+                        <tr>
+                            <td><img src="/assets/images/pepsico_logo.png" /></td>
+                            <td><img src="/assets/images/tetra_pak_logo.png" /></td>
+                            <td><img src="/assets/images/vimm_bill_dan_logo.png" /></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
