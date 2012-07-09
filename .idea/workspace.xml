@@ -2,56 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc17d9e8-0e26-4e58-b07f-5e14f112dd3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/active_menu_item_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/archive_link_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/background_orange.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/city_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/close_layer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/fare_layer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/feedback_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/footer_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/gmo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/left_continuation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/main_readmore_slider_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/main_slider_pagination.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_about_brend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_about_lyubimij.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_action.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_news.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_present.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/mid_layer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news_module_blocks_delimiter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news_module_date_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news_module_title_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/next_slide_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/orange_sircle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/pepsico_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/prev_slide_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/right_continuation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/search-box-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/search_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/search_cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/search_input_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/slogan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/temp_contents/developer_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/temp_contents/news-1-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/temp_contents/news-2-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/temp_contents/slider-image-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/tetra_pak_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/time_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/vimm_bill_dan_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/index_page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jquery.1.7.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jquery.event.frame.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jquery.parallax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jquery.parallax.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/slides.jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/www/protected/views/layouts/main.php" />
     </list>
     <ignored path="server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +24,17 @@
     <favorites_list name="server" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
@@ -83,6 +45,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/www/protected/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/www/.htaccess" />
       </list>
     </option>
   </component>
@@ -151,112 +114,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lubimii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lubimii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lubimii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lubimii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lubimii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -307,7 +164,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1014" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -407,6 +264,13 @@
     <entry file="file://$PROJECT_DIR$/../mapping/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="9693" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
