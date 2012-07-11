@@ -36,15 +36,15 @@
     </div>
     <div id="content-wrapper">
         <div id="target" class="parallax-port">
-            <img class="parallax-layer" src="/assets/images/fare_layer.png" alt="" />
-            <img class="parallax-layer" src="/assets/images/mid_layer.png" alt="" />
-            <img class="parallax-layer" src="/assets/images/close_layer.png" alt="" />
+            <img class="parallax-layer" src="images/fare_layer.png" alt="" />
+            <img class="parallax-layer" src="images/mid_layer.png" alt="" />
+            <img class="parallax-layer" src="images/close_layer.png" alt="" />
         </div>
         <div id="content">
             <div id="slider-index">
                 <div class="slides_container">
                     <div class="slide">
-                        <div class="left" style="background-image:url(/assets/images/temp_contents/slider-image-1.png)">
+                        <div class="left" style="background-image:url(images/temp_contents/slider-image-1.png)">
                             <div class="cur_date">
                                 <div class="digit">27</div>
                                 <div class="month">апреля</div>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="left" style="background-image:url(/assets/images/temp_contents/slider-image-1.png)">
+                        <div class="left" style="background-image:url(images/temp_contents/slider-image-1.png)">
                             <div class="cur_date">
                                 <div class="digit">28</div>
                                 <div class="month">апреля</div>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="left" style="background-image:url(/assets/images/temp_contents/slider-image-1.png)">
+                        <div class="left" style="background-image:url(images/temp_contents/slider-image-1.png)">
                             <div class="cur_date">
                                 <div class="digit">29</div>
                                 <div class="month">апреля</div>
@@ -121,7 +121,7 @@
                             <li class="news-block with-border">
                                 <div class="date">25 апреля</div>
                                 <a class="thumbnail" href="#">
-                                    <img src="/assets/images/temp_contents/news-1-logo.png" />
+                                    <img src="images/temp_contents/news-1-logo.png" />
                                 </a>
                                 <div class="mainbody">
                                     <a class="item-title" href="#">Настоящая «Кладовая солнца»</a>
@@ -132,7 +132,7 @@
                             <li class="news-block">
                                 <div class="date">25 апреля</div>
                                 <a class="thumbnail" href="#">
-                                    <img src="/assets/images/temp_contents/news-2-logo.png" />
+                                    <img src="images/temp_contents/news-2-logo.png" />
                                 </a>
                                 <div class="mainbody">
                                     <a class="item-title" href="#">«Любимый» начинает новую рекламную кампанию</a>
@@ -161,9 +161,9 @@
                 <div class="footer-icons">
                     <table>
                         <tr>
-                            <td><img src="/assets/images/pepsico_logo.png" /></td>
-                            <td><img src="/assets/images/tetra_pak_logo.png" /></td>
-                            <td><img src="/assets/images/vimm_bill_dan_logo.png" /></td>
+                            <td><img src="images/pepsico_logo.png" /></td>
+                            <td><img src="images/tetra_pak_logo.png" /></td>
+                            <td><img src="images/vimm_bill_dan_logo.png" /></td>
                         </tr>
                     </table>
                 </div>
