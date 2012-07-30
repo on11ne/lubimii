@@ -2,3 +2,4 @@ www/!assets/.gitignore
 www/protected/runtime/*
 www/!protected/runtime/.gitignore
 www/protected/data/*.db
+www/.idea/*
