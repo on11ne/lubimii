@@ -1,9 +1,10 @@
 jQuery(document).ready(function(){
     jQuery('#target .parallax-layer').parallax(
         { mouseport: jQuery('#content'),frameDuration:50 },
-        { xparallax: 0.1, yparallax: 0 },   // Red layer options
-        { xparallax: 0.2, yparallax: 0 },   // Blue layer options
-        { xparallax: 0.3, yparallax: 0 }    // Green layer options
+        { xparallax: -0.1, yparallax: 0 },   // Red layer options
+        { xparallax: -0.2, yparallax: 0 },   // Blue layer options
+        { xparallax: -0.3, yparallax: 0 }    // Green layer options
+
     );
     jQuery('#slider-index').slides({
         preload             :   true,

@@ -1,57 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc17d9e8-0e26-4e58-b07f-5e14f112dd3f" name="Default" comment="disable debug">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_bg_items_layer_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_bg_items_layer_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_bg_spike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_body_image_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_footer_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_footer_gmo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_gallery_date_opacity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_date_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_images_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_item_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_pointer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_readmore_link_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/temp_images/big_image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/temp_images/body_menu_thumbnail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/temp_images/news_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/jscrollpane.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/mainmenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/news.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jScrollPane.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/news_behavior.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/components/RecentNews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/components/TopMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/components/views/recentNews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/layouts/news.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/news/view.php" />
-      <change type="DELETED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\layouts\column1.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\layouts\column2.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\tblNews\view.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\controllers\TblNewsController.php" afterPath="$PROJECT_DIR$/www/protected/controllers/NewsController.php" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\models\TblActions.php" afterPath="$PROJECT_DIR$/www/protected/models/Actions.php" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\models\TblNews.php" afterPath="$PROJECT_DIR$/www/protected/models/News.php" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\tblNews\_form.php" afterPath="$PROJECT_DIR$/www/protected/views/news/_form.php" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\tblNews\_search.php" afterPath="$PROJECT_DIR$/www/protected/views/news/_search.php" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\tblNews\_view.php" afterPath="$PROJECT_DIR$/www/protected/views/news/_view.php" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\tblNews\admin.php" afterPath="$PROJECT_DIR$/www/protected/views/news/admin.php" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\tblNews\create.php" afterPath="$PROJECT_DIR$/www/protected/views/news/create.php" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\tblNews\index.php" afterPath="$PROJECT_DIR$/www/protected/views/news/index.php" />
-      <change type="MOVED" beforePath="C:\WorkSpace\actual\lubimii\Development\server\www\protected\views\tblNews\update.php" afterPath="$PROJECT_DIR$/www/protected/views/news/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/images/feedback_button.png" afterPath="$PROJECT_DIR$/www/assets/images/feedback_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="fc17d9e8-0e26-4e58-b07f-5e14f112dd3f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/components/Controller.php" afterPath="$PROJECT_DIR$/www/protected/components/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/config/main.php" afterPath="$PROJECT_DIR$/www/protected/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/runtime/application.log" afterPath="$PROJECT_DIR$/www/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/www/protected/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/views/site/index.php" afterPath="$PROJECT_DIR$/www/protected/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/css/style.css" afterPath="$PROJECT_DIR$/www/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/js/index_page.js" afterPath="$PROJECT_DIR$/www/assets/js/index_page.js" />
     </list>
     <ignored path="server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,25 +33,16 @@
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/protected/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="71" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-12.5">
+            <state line="29" column="29" selection-start="1684" selection-end="1684" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="news.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/protected/views/layouts/news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="63" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="80" column="26" selection-start="3375" selection-end="3375" vertical-scroll-proportion="0.34241706">
               <folding />
             </state>
           </provider>
@@ -873,25 +817,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1014" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16789216" sideWeight="0.6708861" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19607843" sideWeight="0.6708861" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49816176" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49754903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19607843" sideWeight="0.6708861" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -931,7 +875,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="disable debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="news and index integration" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -947,6 +891,7 @@
     <MESSAGE value="index page integration" />
     <MESSAGE value="htaccess encoding" />
     <MESSAGE value="disable debug" />
+    <MESSAGE value="news and index integration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1042,7 +987,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="71" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-12.5">
+        <state line="29" column="29" selection-start="1684" selection-end="1684" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
@@ -1054,16 +999,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/protected/views/layouts/news.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="63" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.0">
+        <state line="3" column="21" selection-start="102" selection-end="102" vertical-scroll-proportion="0.06042654">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/www/protected/views/layouts/news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="80" column="26" selection-start="3375" selection-end="3375" vertical-scroll-proportion="0.34241706">
           <folding />
         </state>
       </provider>
