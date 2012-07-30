@@ -1,4 +1,3 @@
-www/assets/*
 www/!assets/.gitignore
 www/protected/runtime/*
 www/!protected/runtime/.gitignore

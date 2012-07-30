@@ -1,0 +1,109 @@
+/*--------------------------------------------------------*/
+/*_________________HEADER_INNER_BEGIN_____________________*/
+#header .left {
+    float:left;
+    height:136px;
+    width:400px;
+}
+#header .left .logo {
+    display:block;
+    width:400px;
+    height:136px;
+    background:url(../images/logo.png) 35px 10px no-repeat;
+}
+#header .right {
+    float:left;
+    height:136px;
+    width:600px;
+}
+#header .right .main-menu {
+    width:600px;
+    height:62px;
+    float:left;
+    margin-top:10px;
+    margin-bottom: -15px;
+}
+#header .right .main-menu a {
+    float:left;
+    height:62px;
+    background-position: 50% 0;
+    margin-right: 20px;
+}
+#header .right .main-menu a.item_1 {
+    background-image:url(../images/menu_about_brend.png);
+    width:85px;
+}
+#header .right .main-menu a.item_2 {
+    background-image:url(../images/menu_about_lyubimij.png);
+    width:105px;
+}
+#header .right .main-menu a.item_3 {
+    background-image:url(../images/menu_news.png);
+    width:78px;
+}
+#header .right .main-menu a.item_4 {
+    background-image:url(../images/menu_action.png);
+    width:77px;
+}
+#header .right .main-menu a.item_5 {
+    background-image:url(../images/menu_present.png);
+    width:121px;
+}
+#header .right .main-menu a:hover, #header .right .main-menu a.active {
+    background-position: 50% -62px;
+}
+#header .right .search-box {
+    height:47px;
+    width:445px;
+    float:left;
+    padding-left: 155px;
+}
+#header .right .search-box .search-cancel-link {
+    display:block;
+    float:left;
+    width:25px;
+    height:47px;
+    background:url(../images/search_cancel.png) 50% 50% no-repeat;
+    margin-left: 10px;
+}
+#header .right .search-box .search-form-box {
+    float:left;
+    height:47px;
+    width:216px;
+    position:relative;
+    background:url(../images/search-box-bg.png) 0 0 no-repeat;
+}
+#top-search-input {
+    display: block;
+    width:122px;
+    height:25px;
+    border:none;
+    background:transparent;
+    padding:0 15px;
+    line-height: 22px;
+    color:#ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+}
+#top-search-button {
+    display:block;
+    width:76px;
+    height:47px;
+    position:absolute;
+    right:0;
+    top:0;
+    border:none;
+    background:transparent url(../images/search_button.png) 0 50% no-repeat;
+    cursor:pointer;
+}
+#header .right .search-box .feedback-link {
+    display:block;
+    float:right;
+    background:url(../images/feedback_button.png) 0 0 no-repeat;
+    width:175px;
+    height:38px;
+    margin-right: 70px;
+}
+/*_________________HEADER_INNER_END_______________________*/

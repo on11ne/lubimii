@@ -13,7 +13,7 @@
  * @property string $status
  * @property string $created
  */
-class TblActions extends CActiveRecord
+class Actions extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
@@ -48,7 +48,7 @@ class TblActions extends CActiveRecord
 			array('teaser', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, title, teaser, teaser_image, url, is_popup, status, created', 'safe', 'on'=>'search'),
+			array('id, title, teaser, teaser_image, url, is_popup, status, created, index_flag', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,6 +63,16 @@ class TblActions extends CActiveRecord
 		);
 	}
 
+    /**
+     * @return string the URL that shows the detail of the actions item
+     */
+    public function getUrl()
+    {
+        return Yii::app()->createUrl('actions/view', array(
+            '#'=>$this->id
+        ));
+    }
+
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */
@@ -70,13 +80,14 @@ class TblActions extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'title' => 'Title',
-			'teaser' => 'Teaser',
-			'teaser_image' => 'Teaser Image',
-			'url' => 'Url',
-			'is_popup' => 'Is Popup',
-			'status' => 'Status',
-			'created' => 'Created',
+			'title' => 'Название',
+			'teaser' => 'Вступительный текст',
+			'teaser_image' => 'Изображение предпросмотра',
+			'url' => 'Ссылка',
+			'is_popup' => 'Всплывающее окно',
+			'status' => 'Статус',
+            'index_flag' => 'На главной',
+			'created' => 'Создано',
 		);
 	}
 
@@ -99,6 +110,7 @@ class TblActions extends CActiveRecord
 		$criteria->compare('is_popup',$this->is_popup);
 		$criteria->compare('status',$this->status,true);
 		$criteria->compare('created',$this->created,true);
+        $criteria->compare('index_flag',$this->index_flag,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

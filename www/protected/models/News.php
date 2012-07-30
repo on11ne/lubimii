@@ -14,7 +14,7 @@
  * @property string $date_publish_finish
  * @property string $status
  */
-class TblNews extends CActiveRecord
+class News extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
@@ -63,6 +63,16 @@ class TblNews extends CActiveRecord
             'images'=>array(self::HAS_MANY, 'Image', 'id'),
         );
 	}
+
+    /**
+     * @return string the URL that shows the detail of the news item
+     */
+    public function getUrl()
+    {
+        return Yii::app()->createUrl('news/index', array(
+            '#'=>$this->id
+        ));
+    }
 
 	/**
 	 * @return array customized attribute labels (name=>label)

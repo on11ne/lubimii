@@ -1,0 +1,430 @@
+/*--------------------------------------------------------*/
+/*________________________________________________________*/
+* {
+	margin:0;
+	padding:0;
+}
+.c, .clear {
+	clear:both;
+	height:0;
+	width:0;
+	line-height: 0;
+    font-size: 0;
+}
+html {
+    position: relative;
+}
+body {
+	background:#f9b932 url(../images/news/news_bg.jpg) 50% 100% no-repeat;
+	width:100%;
+	overflow-x:hidden;
+	min-width: 1000px;
+	font-family: Arial;
+	font-size: 13px;
+    position: relative;
+}
+/*--------------------------------------------------------*/
+/*_________________WRAPPERS_BEGIN_________________________*/
+#wrapper {
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+}
+#wrapper-inner {
+    width:2000px;
+    margin-left: -500px;
+}
+#header-wrapper {
+	width:2000px;
+	height:136px;
+	background:url(../images/header_bg.png);
+}
+#footer-wrapper {
+	width:2000px;
+	height:113px;
+	background:url(../images/news/news_footer_bg.png);
+	z-index: 10;
+    position: relative;
+}
+#content-wrapper {
+	width:2000px;
+    position: relative;
+}
+#bg-wrapper {
+    width:2000px;
+    height:416px;
+    background: url(../images/news/news_bg_items_layer_2.png) 50% 100% no-repeat;
+    margin-bottom:-113px;
+    position: relative;
+    z-index: 1;
+    margin-top: -303px;
+    left:-500px;
+    float: left;
+}
+/*_________________WRAPPERS_END___________________________*/
+/*--------------------------------------------------------*/
+/*_________________MAIN_BOXES_BEGIN_______________________*/
+#header {
+	width:1000px;
+	margin:0 auto;
+	height:136px;
+}
+#content {
+    padding-top: 22px;
+	width:1000px;
+	margin:0 auto;
+	position: relative;
+}
+#footer {
+	width:1000px;
+	margin:0 auto;
+    height:93px;
+    padding-top: 20px;
+}
+/*_________________MAIN_BOXES_END_________________________*/
+/*--------------------------------------------------------*/
+/*_________________FOOTER_INNER_BEGIN_____________________*/
+#footer .bottom {
+	width:900px;
+	height:63px;
+	padding:20px 50px;
+}
+#developer-logo {
+	display: block;
+	height:63px;
+	width:133px;
+	background:url(../images/temp_contents/developer_logo.png) 50% 50% no-repeat;
+	margin-right: 120px;
+	margin-left: 0;
+	float:left;
+}
+#footer-gmo {
+	display: block;
+	height:163px;
+	width:259px;
+	background:url(../images/news/news_footer_gmo.png) 50% 50% no-repeat;
+	margin-left: 0;
+	float:left;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+#footer .bottom_menu {
+	height:63px;
+	float:left;
+	margin-right: 40px;
+}
+#footer .bottom_menu a {
+	display: block;
+	font-family: "Trebuchet MS",Arial;
+	font-size: 12px;
+	color:#fff;
+	line-height: 21px;
+}
+#footer .bottom_menu a.active, #footer .bottom .bottom_menu a:hover {
+	color:#ffe405;
+}
+#footer  .footer-icons {
+	float:right;
+	height:63px;
+	width:280px;
+	margin-right: 60px;
+}
+#footer  .footer-icons table {
+	width:280px;
+	border:none;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+#footer  .footer-icons table td {
+	vertical-align: middle;
+}
+/*_________________FOOTER_INNER_END_______________________*/
+/*--------------------------------------------------------*/
+/*_________________CONTENT_NEWS_PAGE_BEGIN________________*/
+#content h1 {
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 34px;
+    color:#fff;
+    line-height: 34px;
+    height:34px;
+    position: absolute;
+    top:-34px;
+}
+#content .left {
+    float:left;
+    width:359px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 200px;
+    position: relative;
+    z-index: 10;
+}
+#news_menu {
+    list-style: none;
+    display:block;
+    width:359px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+}
+#news_menu li {
+    width:339px;
+    float:left;
+    background:transparent url(../images/news/news_menu_item_bg.jpg) 0 0 repeat-x;
+    height:78px;
+    position: relative;
+    padding: 10px;
+    cursor:pointer;
+}
+#news_menu li:hover, #news_menu li.active {
+    background-position:0 -98px;
+}
+#news_menu li.active {
+    cursor:default;
+}
+#news_menu li.first {
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+}
+#news_menu li .pointer {
+    background: url(../images/news/news_menu_pointer.png);
+    width:7px;
+    height:15px;
+    position: absolute;
+    left:-2px;
+    top:41.5px;
+    visibility:hidden;
+}
+#news_menu li:hover .pointer , #news_menu li:active .pointer {
+    visibility: visible;
+}
+#news_menu li .image-holder {
+    background:url(../images/news/news_menu_images_bg.png);
+    width:72px;
+    height:69px;
+    padding:4px 5px;
+    float:left;
+    position: relative;
+}
+#news_menu li .image-holder img {
+    border:none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#news_menu li .image-holder .date_mini {
+    position: absolute;
+    bottom:4px;
+    left:3.5px;
+    background:url(../images/news/news_menu_date_bg.png);
+    width:74px;
+    height:18px;
+    line-height: 18px;
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    font-weight: bold;
+    font-style:italic;
+    text-align: center;
+    color:#fff;
+}
+
+
+#news_menu li .text-holder {
+    width:247px;
+    padding-left: 10px;
+    color:#7a6a26;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    font-weight: bold;
+    float:left;
+}
+#news_menu li .text-holder p {
+    line-height: 14px;
+}
+#news_menu li:hover .text-holder, #news_menu li.active .text-holder {
+    color:#837762;
+}
+#news_menu li .text-holder h3 {
+    color:#423213;
+    font-family: Arial;
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#content .content-inner {
+    background:url(../images/news/news_bg_spike.png) 0 0 repeat-y;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;
+    width:1000px;
+    position: relative;
+    z-index: 0;
+}
+#content .left .show-more-link-box {
+    background:url(../images/news/news_menu_bottom.png) no-repeat;
+    width:359px;
+    height:25px;
+}
+#content .left .show-more-link-box a {
+    display: block;
+    background:url(../images/news/news_menu_readmore_link_bg.png) 50% 50% no-repeat;
+    width:359px;
+    height:25px;
+}
+#content .right {
+    width:601px;
+    float:left;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;
+    padding:20px 20px 0px;
+    position: relative;
+    z-index: 2;
+}
+#news_mainbody {
+    width:601px;
+    color:#837762;
+    font-family: "Trebuchet MS";
+    font-size: 13px;
+    min-height: 600px;
+}
+#news_mainbody p {
+    margin-bottom: 20px;
+}
+#news_mainbody h2 {
+    font-family: "Trebuchet MS";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color:#c51717;
+    margin-bottom: 15px;
+}
+#news_mainbody .news_gallery {
+    width:281px;
+    height:265px;
+    margin:0 20px 20px 0;
+    float: left;
+}
+#news_mainbody .news_gallery ul {
+    list-style: none;
+}
+#news_mainbody .news_gallery .gallery-top {
+    width:281px;
+    height:195px;
+    margin-bottom: 4px;
+    position: relative;
+}
+#news_mainbody .news_gallery .gallery-top .big_date {
+    position: absolute;
+    width:266px;
+    height:25px;
+    background:url(../images/news/news_gallery_date_opacity.png);
+    color:#fff;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 25px;
+    padding-left: 15px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    bottom:0;
+}
+#news_mainbody .news_gallery .big {
+    width:281px;
+    height:195px;
+    display:block;
+    position: relative;
+}
+#news_mainbody .news_gallery .big li {
+    position: absolute;
+    top:0;
+    left:0;
+    width:281px;
+    height:195px;
+}
+#news_mainbody .news_gallery .big li img {
+    display:none;
+    border:none;
+    width:281px;
+    height:195px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#news_mainbody .news_gallery .big li.active img {
+    display:block;
+}
+#news_mainbody .news_gallery .small {
+    width:281px;
+    height: 65px;
+    display: block;
+}
+#news_mainbody .news_gallery .small li {
+    float:left;
+    width:83px;
+    height:55px;
+    background:url(../images/news/news_body_image_bg.jpg) 0 -65px no-repeat;
+    margin-right: 1px;
+    padding:5px;
+    cursor: pointer;
+}
+#news_mainbody .news_gallery .small li.last {
+    margin:0;
+}
+#news_mainbody .news_gallery .small li.active, #news_mainbody .news_gallery .small li:hover {
+    background-position: 0 0;
+}
+#news_mainbody .news_gallery .small li.active {
+    cursor: default;
+}
+#news_mainbody .news_gallery .small li img {
+    border:none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#news_mainbody .scroll-pane {
+    height:580px;
+    margin-bottom: 30px;
+}
+#news_mainbody .share-social .title {
+    color:#837762;
+    font-size: 15px;
+    font-family: "Trebuchet MS";
+    font-style: italic;
+    font-weight: bold;
+}
+#news_mainbody .buttons {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#news_mainbody .buttons a {
+    display:block;
+    height:35px;
+    width:35px;
+    background-image: url(../images/social_buttons/news_share.jpg);
+    margin-right: 10px;
+    float: left;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#news_mainbody .buttons .fb {
+    background-position: -70px 0;
+}
+#news_mainbody .buttons .vk {
+    background-position :-35px 0;
+}
+#news_mainbody .buttons .ok {
+    background-position:0px 0;
+}
+/*_________________CONTENT_NEWS_PAGE_END__________________*/
+/*--------------------------------------------------------*/

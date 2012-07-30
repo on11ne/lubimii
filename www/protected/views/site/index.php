@@ -1,16 +1,43 @@
-<?php $this->pageTitle=Yii::app()->name; ?>
+<?php
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+date_default_timezone_set("Europe/Moscow");
+setlocale(LC_ALL, "ru_RU");
 
-<p>Congratulations! You have successfully created your Yii application.</p>
+$this->pageTitle = Yii::app()->name . ' - Главная';
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <tt><?php echo __FILE__; ?></tt></li>
-	<li>Layout file: <tt><?php echo $this->getLayoutFile('main'); ?></tt></li>
-</ul>
+$actions_slider = Actions::model()->findAll(array(
+    "select" => "id, created, terms, teaser, title, teaser_image, url",
+    "condition" => "index_flag=1 AND status=1"
+));
 
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+$news_slider = News::model()->findAll(array(
+    "select" => "id, date_created as created, '' as terms, teaser, title, teaser_image",
+    "condition" => "index_flag=1 AND status=1"
+));
+
+?>
+
+<?php foreach($actions_slider as $item) : ?>
+
+
+<div class="slide">
+    <div class="left" style="background-image:url(<?php echo $item->teaser_image; ?>)">
+        <div class="cur_date">
+            <div class="digit"><?php echo strftime("%d", strtotime($item->created)); ?></div>
+            <div class="month"><?php echo strftime("%B", strtotime($item->created)); ?></div>
+        </div>
+        <div class="slogan"></div>
+    </div>
+    <div class="right">
+        <div class="date"><?php echo $item->terms; ?></div>
+        <div class="descr">
+            <?php echo $item->teaser; ?>
+        </div>
+        <div class="buttons">
+            <a href="<?php echo $item->url; ?>" class="readmore_button"></a>
+        </div>
+        <div class="title"><span><?php echo $item->title; ?></span></div>
+    </div>
+</div>
+
+<?php endforeach; ?>

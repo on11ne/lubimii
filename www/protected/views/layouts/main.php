@@ -1,10 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
-    <title>Любимый :: главная</title>
+    <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/index.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/mainmenu.css" type="text/css" />
     <script language="javascript" type="text/javascript" src="/assets/js/jquery.1.7.2.js"></script>
     <script language="javascript" type="text/javascript" src="/assets/js/jquery.event.frame.js"></script>
     <script language="javascript" type="text/javascript" src="/assets/js/jquery.parallax.js"></script>
@@ -21,11 +22,16 @@
             </div>
             <div class="right">
                 <div class="main-menu">
-                    <a class="item_1 active" href="#"></a>
-                    <a class="item_2" href="#"></a>
-                    <a class="item_3" href="#"></a>
-                    <a class="item_4" href="#"></a>
-                    <a class="item_5" href="#"></a>
+
+                    <?php $this->widget('application.components.TopMenu',array(
+                        'items'=>array(
+                            array('label'=>'', 'url'=>array('post/index'), 'linkOptions' => array('class'=>'item_1')),
+                            array('label'=>'', 'url'=>array('site/page'), 'linkOptions' => array('class'=>'item_2')),
+                            array('label'=>'', 'url'=>array('news/index'), 'linkOptions' => array('class'=>'item_3')),
+                            array('label'=>'', 'url'=>array('site/login'), 'linkOptions' => array('class'=>'item_4')),
+                            array('label'=>'', 'url'=>array('site/login'), 'linkOptions' => array('class'=>'item_5'))
+                        ),
+                    )); ?>
                 </div>
                 <div class="search-box">
                     <a class="feedback-link" href="#"></a>
@@ -43,66 +49,7 @@
         <div id="content">
             <div id="slider-index">
                 <div class="slides_container">
-                    <div class="slide">
-                        <div class="left" style="background-image:url(/assets/images/temp_contents/slider-image-1.png)">
-                            <div class="cur_date">
-                                <div class="digit">27</div>
-                                <div class="month">апреля</div>
-                            </div>
-                            <div class="slogan"></div>
-                        </div>
-                        <div class="right">
-                            <div class="date">29 преля - 25 мая</div>
-                            <div class="descr">
-                                <p>Для участия в акции необходимо в день проведения промо-акции прийти в один из магазинов, где проводится мероприятие, и купить продукцию «Любимый» («Любимый сад»).</p>
-                                <p>В подарок за покупку 1,9 и/или 2,85 литров сока или нектара «Любимый» любого вкуса и формата вы получите замечательный стеклянный стакан и/или салатник </p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="readmore_button"></a>
-                            </div>
-                            <div class="title"><span>Старт кулинарного творчества 1</span></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="left" style="background-image:url(/assets/images/temp_contents/slider-image-1.png)">
-                            <div class="cur_date">
-                                <div class="digit">28</div>
-                                <div class="month">апреля</div>
-                            </div>
-                            <div class="slogan"></div>
-                        </div>
-                        <div class="right">
-                            <div class="date">29 преля - 25 мая</div>
-                            <div class="descr">
-                                <p>Для участия в акции необходимо в день проведения промо-акции прийти в один из магазинов, где проводится мероприятие, и купить продукцию «Любимый» («Любимый сад»).</p>
-                                <p>В подарок за покупку 1,9 и/или 2,85 литров сока или нектара «Любимый» любого вкуса и формата вы получите замечательный стеклянный стакан и/или салатник </p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="readmore_button"></a>
-                            </div>
-                            <div class="title"><span>Старт кулинарного творчества 2</span></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="left" style="background-image:url(/assets/images/temp_contents/slider-image-1.png)">
-                            <div class="cur_date">
-                                <div class="digit">29</div>
-                                <div class="month">апреля</div>
-                            </div>
-                            <div class="slogan"></div>
-                        </div>
-                        <div class="right">
-                            <div class="date">29 преля - 25 мая</div>
-                            <div class="descr">
-                                <p>Для участия в акции необходимо в день проведения промо-акции прийти в один из магазинов, где проводится мероприятие, и купить продукцию «Любимый» («Любимый сад»).</p>
-                                <p>В подарок за покупку 1,9 и/или 2,85 литров сока или нектара «Любимый» любого вкуса и формата вы получите замечательный стеклянный стакан и/или салатник </p>
-                            </div>
-                            <div class="buttons">
-                                <a href="#" class="readmore_button"></a>
-                            </div>
-                            <div class="title"><span>Старт кулинарного творчества 3</span></div>
-                        </div>
-                    </div>
+                    <?php echo $content; ?>
                 </div>
             </div>
         </div>
@@ -117,30 +64,9 @@
                     </div>
                     <div class="c"></div>
                     <div class="body">
-                        <ul>
-                            <li class="news-block with-border">
-                                <div class="date">25 апреля</div>
-                                <a class="thumbnail" href="#">
-                                    <img src="/assets/images/temp_contents/news-1-logo.png" />
-                                </a>
-                                <div class="mainbody">
-                                    <a class="item-title" href="#">Настоящая «Кладовая солнца»</a>
-                                    <div class="item-descr">По уже сложившейся традиции перед Новым, 2012 годом «Любимый» ...</div>
-                                </div>
-                                <div class="c"></div>
-                            </li>
-                            <li class="news-block">
-                                <div class="date">25 апреля</div>
-                                <a class="thumbnail" href="#">
-                                    <img src="/assets/images/temp_contents/news-2-logo.png" />
-                                </a>
-                                <div class="mainbody">
-                                    <a class="item-title" href="#">«Любимый» начинает новую рекламную кампанию</a>
-                                    <div class="item-descr">По уже сложившейся традиции перед Новым, 2012 годом «Любимый» ...</div>
-                                </div>
-                                <div class="c"></div>
-                            </li>
-                        </ul>
+                        <?php $this->widget('RecentNews', array(
+                            'maxNews'=>2,
+                        )); ?>
                         <div class="c"></div>
                     </div>
                 </div>
