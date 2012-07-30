@@ -1,126 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc17d9e8-0e26-4e58-b07f-5e14f112dd3f" name="Default" comment="Merge branch 'master' of github.com:on11ne/lubimii&#10;&#10;Conflicts:&#10;&#9;.gitignore&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/active_menu_item_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/archive_link_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/background_orange.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/city_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/close_layer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/fare_layer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/feedback_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/footer_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/gmo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/left_continuation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/main_readmore_slider_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/main_slider_pagination.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_about_brend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_about_lyubimij.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_action.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_news.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/menu_present.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/mid_layer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_bg_items_layer_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_bg_items_layer_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_bg_spike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_body_image_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_footer_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_footer_gmo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_gallery_date_opacity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_date_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_images_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_item_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_pointer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/news_menu_readmore_link_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/temp_images/big_image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/temp_images/body_menu_thumbnail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news/temp_images/news_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news_module_blocks_delimiter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news_module_date_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/news_module_title_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/next_slide_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/orange_sircle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/pepsico_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/prev_slide_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/right_continuation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/search-box-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/search_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/search_cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/search_input_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/slogan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/temp_contents/developer_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/temp_contents/news-1-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/temp_contents/news-2-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/temp_contents/slider-image-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/tetra_pak_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/time_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/vimm_bill_dan_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/jscrollpane.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/mainmenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/news.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/index_page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jScrollPane.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jquery.1.7.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jquery.event.frame.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jquery.parallax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jquery.parallax.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/news_behavior.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/slides.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/components/RecentNews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/components/TopMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/components/views/recentNews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/controllers/NewsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/migrations/m120729_160702_initial.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/migrations/m120729_160916_alter_news_status.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/migrations/m120729_161840_add_lookup_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/migrations/m120729_173738_alter_news_change_images.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/models/Actions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/models/Image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/models/Lookup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/models/TblProducts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/models/TblVideos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/layouts/news.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/news/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/news/_search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/news/_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/news/admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/news/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/news/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/news/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/protected/views/news/view.php" />
-      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\protected\views\layouts\column1.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\protected\views\layouts\column2.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\Workspace\lubimii\Development\server\www\protected\models\TblNews.php" afterPath="$PROJECT_DIR$/www/protected/models/News.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/data/testdrive.db" afterPath="$PROJECT_DIR$/www/protected/data/testdrive.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/components/Controller.php" afterPath="$PROJECT_DIR$/www/protected/components/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/config/console.php" afterPath="$PROJECT_DIR$/www/protected/config/console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/config/main.php" afterPath="$PROJECT_DIR$/www/protected/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/data/schema.mysql.sql" afterPath="$PROJECT_DIR$/www/protected/data/schema.mysql.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/runtime/application.log" afterPath="$PROJECT_DIR$/www/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/www/protected/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/protected/views/site/index.php" afterPath="$PROJECT_DIR$/www/protected/views/site/index.php" />
+    <list default="true" id="fc17d9e8-0e26-4e58-b07f-5e14f112dd3f" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\.idea\server.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\.idea\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\.idea\server.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace\lubimii\Development\server\www\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="server.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
     <ignored path="www/.idea/" />
-    <ignored path="" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,23 +274,23 @@
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16773504" sideWeight="0.676307" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16773504" sideWeight="0.6718576" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19818376" sideWeight="0.676307" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19818376" sideWeight="0.6718576" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49816176" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32369298" sideWeight="0.49754903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32369298" sideWeight="0.49754903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -427,7 +330,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="news and index integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing ideas" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -444,6 +347,8 @@
     <MESSAGE value="htaccess encoding" />
     <MESSAGE value="disable debug" />
     <MESSAGE value="news and index integration" />
+    <MESSAGE value="Merge branch 'master' of github.com:on11ne/lubimii&#10;&#10;Conflicts:&#10;&#9;.gitignore&#10;" />
+    <MESSAGE value="removing ideas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
